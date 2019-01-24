@@ -17,7 +17,7 @@ function takeANumber(line, name) {
 function currentLine(line) {
   var message = "";
   if (line.length === 0) {
-    message = "The line is currently empty";
+    message = "The line is currently empty.";
   } else {
     message = "The line is currently: "
   }
