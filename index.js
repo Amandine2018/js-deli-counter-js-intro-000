@@ -17,13 +17,13 @@ function takeANumber(line, name) {
 function currentLine(line) {
   var message = "";
   if (line.length === 0) {
-    message = "empty";
+    message = "The line is currently empty";
   }
   for (let i = 0; i < line.length; i++) {
     message += `${i+1}. ${line[i]}`;
-    if (line.length > 1) {
+    if (line.length >= 1) {
       message += ", ";
     }
   }
-  return("The line is currently: " + message)
+  return("The line is currently " + message)
 }
