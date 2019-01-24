@@ -9,7 +9,7 @@ function takeANumber(line, name) {
    if (line.length === 0) {
      message = "There is nobody waiting to be served!";
    } else {
-     message = firstPerson;
+     message = `Currently serving ${firstPerson}.`;
    }
    return message;
  }
