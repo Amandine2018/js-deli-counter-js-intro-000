@@ -23,7 +23,7 @@ function currentLine(line) {
   }
   for (let i = 0; i < line.length; i++) {
     message += `${i+1}. ${line[i]}`;
-    if (line.length >= 1) {
+    if (i < line.length) {
       message += ", ";
     }
   }
